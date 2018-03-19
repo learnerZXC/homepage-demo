@@ -1,0 +1,70 @@
+.banner {
+	height: 350px;
+	width: 100%;
+}
+
+.products {
+	background: rgb(006,185,235);
+}
+
+.title {
+	text-align: center;
+}
+
+.views {
+	overflow: hidden;
+	width: 1250px;
+}
+
+.views .item {
+	float: left;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+	width: 238px;
+	height: 308px;
+	border: 1px solid #eee;
+	background: #fff;
+	margin-right: 10px;
+}
+
+.views .imgContainer {
+	position: relative;
+	overflow: hidden;
+	width: 238px;
+	height: 238px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.views .price {
+	font-family: arial,verdana,sans-serif;
+	margin: 5px 0;
+}
+
+.views .price .rmbSymbol {
+	font-size: 15px;
+	color: #999;
+}
+
+.views .price .integer {
+	margin-top: 4px;
+	color: #f40;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.views .price .origPrice {
+	margin: 4px 0 0 2px;
+	color: #999;
+	font-size: 15px;
+	text-decoration: line-through;
+}
+
+.views .button {
+	text-align: center;
+}
