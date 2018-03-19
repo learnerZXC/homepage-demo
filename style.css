@@ -1,9 +1,14 @@
 .banner {
-	height: 350px;
+	height: 339px;
 	width: 100%;
 }
 
+.content {
+	width: 1250px;
+}
+
 .products {
+	float: left;
 	background: rgb(006,185,235);
 }
 
@@ -13,7 +18,7 @@
 
 .views {
 	overflow: hidden;
-	width: 1250px;
+	width: 1000px;
 }
 
 .views .item {
@@ -67,4 +72,28 @@ ul {
 
 .views .button {
 	text-align: center;
+}
+
+.nav {
+	float: right;
+}
+
+.nav-ul{
+	border: 1px solid #ff5000;
+	border-top: none;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+
+.nav-ul li{
+	overflow: hidden;
+	line-height: 32px;
+	height: 32px;
+	padding-left: 25px;
+	padding-right: 19px;
+	position: relative;
+	font-size: 14px;
+	font-weight: 400;
+	width: 145px;
+	color: #666;
 }
